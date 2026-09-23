@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    font-family: "Comic Relief", sans-serif;
+}
+
+.card {
+    width: 670px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+.card h3 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.from-grup {
+    margin-bottom: 18px;
+}
+
+.from-grup input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+.from-grup input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.from-grup select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.from-grup textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.from-grup textarea {
+    resize: vertical;
+}
+
+.button-grup {
+    display: flex;
+    gap: 10px;
+}
+
+.button-grup input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+
+.button-grup input[type="submit"] {
+    background-color: #2b2121;
+    color: white;
+    transition: 0.5s;
+}
+
+.button-grup input[type="reset"] {
+    background-color: rgb(212, 201, 201);
+    color: black;
+    transition: 0.5s;
+}
+
+.button-grup input[type="submit"]:hover {
+     background-color: #706163;
+}
+
+.button-grup input[type="reset"]:hover {
+    background-color: #c4baba;
+}
